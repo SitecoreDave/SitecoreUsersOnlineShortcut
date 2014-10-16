@@ -1,0 +1,57 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>UsersOnlineSecurityToolsShortcut</PackageName>
+      <Author>David Walker</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License>&lt;p&gt;Open Source - no warranties, use at your own risk.&lt;/p&gt;&lt;p&gt;This package simply creates three content items within the Core database /sitecore/content:&lt;/p&gt;&lt;ul/&gt;&lt;li&gt;Applications/Security/Users Online&lt;/li&gt;&lt;li&gt;Documents and settings/All users/Start menu/Programs/Security/Users Online&lt;/li&gt;&lt;li&gt;Documents and settings/All users/Start menu/Right/Security Tools/Users Online&lt;/li&gt;&lt;/ul&gt;&lt;a target=_blank href=http://RadicalDave.com/Sitecore/&gt;http://RadicalDave.com/Sitecore/&lt;/a&gt; for more details</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>RadicalDave.com</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Security/Users Online/{B7D01DED-3B1D-4BF0-B89D-8BB4A6E847A9}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>UsersOnlineSecurityApplication</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Programs/Security/Users Online/{43A2318B-BC72-49CE-9F0C-2ADBB8831468}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Right/Security Tools/Users Online/{8DA6DB73-16FD-4F62-984B-6C404B3323F1}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>UsersOnlineSecurityApplicationShortcuts</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
